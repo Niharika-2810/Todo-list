@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(60, 29, 104);
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.todo{
+    background-color: azure;
+    width: 100%;
+    max-width: 540px;
+    padding: 40px 30px 70px;
+    margin: 100px auto 20px;
+    border-radius: 10px;
+}
+
+h2{
+    color: rgb(77, 48, 25);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+}
